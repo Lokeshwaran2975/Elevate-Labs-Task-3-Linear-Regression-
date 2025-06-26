@@ -1,6 +1,5 @@
-# Elevate-Labs-Task-3-Linear-Regression
-
-## 🚀 Linear Regression Project – Task 3
+# Elevate-Labs-Task-3
+## 🚀 Linear Regression Project
 
 This project demonstrates the implementation of **Simple** and **Multiple Linear Regression** models using **Python**. The objective is to build a regression model to predict a target variable from one or more features and evaluate its performance using key metrics.
 
@@ -27,21 +26,27 @@ This project demonstrates the implementation of **Simple** and **Multiple Linear
 
 ### 🔑 **Steps Covered**
 
-1️⃣ Imported and explored the dataset
-2️⃣ Preprocessed the data:
-  ✔️ Encoded categorical variables using `pd.get_dummies`
-  ✔️ Converted categorical target to numeric if necessary
+1️) Imported and explored the dataset
 
-3️⃣ Split data into training and testing sets (80/20 split)
+2️) Preprocessed the data:
 
-4️⃣ Trained a **Linear Regression** model using `sklearn.linear_model.LinearRegression`
+  • Encoded categorical variables using `pd.get_dummies`
+  
+  • Converted categorical target to numeric if necessary
 
-5️⃣ Evaluated model performance using:
+3️) Split data into training and testing sets (80/20 split)
+
+4️) Trained a **Linear Regression** model using `sklearn.linear_model.LinearRegression`
+
+5️) Evaluated model performance using:
+
   • Mean Absolute Error (MAE)
+  
   • Mean Squared Error (MSE)
+  
   • R² Score
 
-6️⃣ Plotted:
+6️) Plotted:
 
 * For simple regression: actual vs predicted with regression line
 * For multiple regression: actual vs predicted scatter plot
@@ -51,15 +56,25 @@ This project demonstrates the implementation of **Simple** and **Multiple Linear
 ### 📊 **Model Evaluation Example Output**
 
 ```
-MAE: 5.23  
-MSE: 42.67  
-R²: 0.78  
+Model Evaluation Metrics:
+MAE: 0.65
+MSE: 0.61
+R²: 0.03
 
-Intercept: 3.56  
+Intercept: 1.729410322699008
 Coefficients:
-Feature1: 0.45  
-Feature2: -1.23  
-...
+price: -1.0812521093209416e-07
+area: 1.6853813288717875e-05
+bedrooms: 0.008917838889712117
+bathrooms: 0.06191835191397325
+stories: -0.0521609903057707
+parking: -0.07631986514306534
+mainroad_yes: -0.17331730785575175
+guestroom_yes: -0.023373990566529092
+basement_yes: -0.1518541587563577
+hotwaterheating_yes: -0.038878228407984446
+airconditioning_yes: -0.021264636614891898
+prefarea_yes: 0.036124063036293966 
 ```
 
 ---
