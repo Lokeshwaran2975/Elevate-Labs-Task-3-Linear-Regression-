@@ -53,7 +53,7 @@ This project demonstrates the implementation of **Simple** and **Multiple Linear
 
 ---
 
-### 📊 **Model Evaluation Example Output**
+### 📊 **Model Evaluation Output**
 
 ```
 Model Evaluation Metrics:
@@ -83,6 +83,9 @@ prefarea_yes: 0.036124063036293966
 
 * **Simple Linear Regression:** Regression line overlaid on actual data points
 * **Multiple Linear Regression:** Scatter plot comparing actual vs predicted values
+* 
+![Actual vs Predicted Values (Multiple Regression)](https://github.com/user-attachments/assets/2bbdb944-6ed4-4687-94a3-af4c4401a825)
+
 
 ---
 
